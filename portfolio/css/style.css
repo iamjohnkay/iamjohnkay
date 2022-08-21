@@ -146,6 +146,7 @@
 
 .div2{
   font-size: 27px;
+  font-weight: bolder;
   
 }
 .div2 span{
@@ -235,16 +236,16 @@ a:hover{
   color: coral;
 }
 
-a.twitter:hover{
+a.twitter{
   color:#4169E1;
 }
 
-a.instagram:hover{
+a.instagram{
   color: #E4405F;
 }
 
 a.github:hover{
-  color:  rgba(248, 138, 87, 0.644);
+  color: #34A853;
 }
 
 a.mail{
@@ -255,5 +256,7 @@ a.mail{
   padding: 10px 20px;
 }
 
-
+a.gmail{
+  color: #FBBC05;
+}
 
