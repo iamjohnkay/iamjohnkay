@@ -1,0 +1,221 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+
+  @import url(//db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended);
+
+ body{
+    background-color: black;
+    font-family: 'Lato';
+    color: hsla(0,0%,100%,.6);
+ }
+
+ a{
+  text-decoration:underline;
+}
+
+
+/*.container{
+  display: flex;
+}*/
+
+
+ /**div-header**/
+ .div1{
+  /* background-image: url(../images/bulb.avif);*/
+   width: auto;
+   text-align: center;
+   height: 100px;
+   color: honeydew;
+ }
+.div1 h2 , .div1 h1{ 
+    display: inline-block; 
+  } 
+.div1 h1{
+  font-size: 30px;
+}
+.div1 h2{
+  font-size: 22px;
+}
+  .div1 span{
+    font-size: 20px;
+  }
+
+  /* .div1 a{
+    text-decoration-style: none;
+  } */
+
+  .div1 div {
+    display: none;
+    border: 1px none 	#E3DAC9;
+  }
+  b {
+    cursor: pointer;
+  }
+  b:hover{
+    color:#16F529;
+  }
+  b:hover + div {
+    text-align: center;
+    display: block;
+    color:#E3DAC9;
+    font-size: 15px;
+    
+  }
+
+  /************* div1 end ****************/
+
+  
+
+  /***************details****************/
+
+  .container{
+    font-size: 27px;
+    line-height: 160%;
+    font-weight: 400;
+  }
+
+
+.details{
+  /* background-color: black; */
+  margin: 2px;
+  padding: 55px;
+  width: 100%;
+}
+
+.who{
+  
+  /* background-color: black; */
+  
+
+  border: 1px solid red; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'GT America Extended', sans-serif;
+  font-size: 43px;
+  font-weight: bold;
+  color: white;
+}
+/* .who{
+    background-image: url(../images/eyes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px 200px;
+} */
+.who span img{
+  width:85px;
+  height: 77px;
+  transform: translate(0,25%);
+}
+
+.details .real{
+  font-family: 'PT Sans';
+  font-size: 27px;
+  text-align: justify;
+  color: hsla(0,0%,100%,.6);
+  line-height: 2pc;
+  font-weight: bold;
+  
+}
+
+.details .real span{
+  color: #FFFFFF;
+}
+
+.details .real s{
+  color: burlywood;
+}
+
+
+.div2{
+  font-size: 27px;
+  
+}
+.div2 span{
+  font-size: 15px;
+}
+
+.div2 div {
+  display: none;
+  border: 1px none 	#E3DAC9;
+}
+.div2 b:hover + div {
+  text-align: left;
+  display: block;
+  color:#E3DAC9;
+  font-size: 15px;
+  
+}
+
+a{
+  color: #FFFFFF;
+  /* text-decoration-style: none;
+  text-decoration: none; */
+}
+
+a:hover{
+  color: coral;
+}
+
+b.g{
+  color:#4285F4
+}
+b.o1{
+  color: #DB4437;
+}
+b.o2{
+  color: #F4B400;
+}
+b.l{
+  color: #0F9D58;
+}
+
+
+  a.twitter:hover{
+    color:#4169E1;
+  }
+
+  a.instagram:hover{
+    color: #E4405F;
+  }
+
+  p.goals{
+    text-align: center;
+    border: 1px solid white;
+  }
+
+
+
+
+div.embed{
+  display: inline;
+  
+}
+
+div.twitter-tweet{
+  float: left;
+}
+div.spotify{
+
+  float: left;
+}
+/** OTHER DETAILS **/
+
+.otherdetails{
+  clear: both;
+  font-size: 20px;
+  font-family:  'JetBrains Mono', monospace;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.otherdetails a{
+  text-decoration: none;
+}
