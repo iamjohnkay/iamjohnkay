@@ -8,19 +8,39 @@
     box-sizing: border-box; /* IE */
   }
 
-  @import url(//db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended);
-  
+  /* @import url(//db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended); */
+
 
  body{
-    background-color:  rgb(0, 0, 0); 
+    background-color:  rgb(0, 0, 0);
     font-family: 'Lato';
     color: hsla(0,0%,100%,.6);
  }
 
+ .cmd{
+   color: #16F529;
+ }
 
- 
+ nav{
+  text-align: center;
+ }
 
+nav a{
+  color: #16F529;
+  padding-right: 10px;
 
+}
+table{
+  text-align: justify;
+}
+
+table th{
+  color: red;
+  border-right-width:medium;
+  border-right-color:#000;
+  border-right-style:groove;
+  width: 25%;
+}
 
 /*.container{
   display: flex;
@@ -35,9 +55,9 @@
    height: 100px;
    color: honeydew;
  }
-.div1 h2 , .div1 h1{ 
-    display: inline-block; 
-  } 
+.div1 h2 , .div1 h1{
+    display: inline-block;
+  }
 .div1 h1{
   font-size: 30px;
 }
@@ -67,7 +87,7 @@
     display: block;
     color:#E3DAC9;
     font-size: 15px;
-    
+
   }
 
   b{
@@ -76,7 +96,7 @@
 
   /************* div1 end ****************/
 
-  
+
 
   /***************details****************/
 
@@ -102,7 +122,7 @@
       font-size: 20px;
   }
   }
-  
+
   @media screen and (max-width: 991px){
   .container {
       font-size: 20px;
@@ -110,11 +130,11 @@
   }
 
 .intro{
-  text-align: center;   
+  text-align: center;
   font-weight: bold;
   font-size: 43px;
   font-family: 'GT America Extended', sans-serif;
-  border: 1px solid red; 
+  border: 1px solid red;
   color: #f5f5f5;
 
 }
@@ -130,9 +150,9 @@
   font-size: 27px;
   text-align: justify;
   color: hsla(0,0%,100%,.6);
-  
+
   /* font-weight: bold; */
-  
+
 }
 
 .details .real span{
@@ -148,7 +168,7 @@
 .div2{
   font-size: 27px;
   font-weight: bolder;
-  
+
 }
 .div2 span{
   font-size: 15px;
@@ -163,7 +183,7 @@
   display: block;
   color:#E3DAC9;
   font-size: 15px;
-  
+
 }
 
 
@@ -172,7 +192,7 @@
 /**********b tag**************/
 
 b.g{
-  color:#4285F4
+  color:#4285F4;
 }
 b.o1{
   color: #DB4437;
@@ -195,7 +215,7 @@ p.goals{
 
 div.embed{
   display: inline;
-  
+
 }
 
 div.twitter-tweet{
@@ -238,7 +258,7 @@ a:hover{
 }
 
 a.twitter{
-  color:#4169E1;
+  color:#1DA1F2;
 }
 
 a.instagram{
@@ -290,4 +310,3 @@ a.gmail{
   }
 
 }
-
